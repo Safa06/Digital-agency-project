@@ -1,0 +1,302 @@
+/* whole body common styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.primary-color{
+    color: #F52C2C;
+}
+
+
+/*  nav styles starts */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#D5D2D2 ;
+    padding: 20px;
+    
+}
+li{
+list-style: none;
+display: inline;
+margin-right:40px ;
+font-size: 20px;
+}
+
+
+
+/* banner styles starts */
+
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+.banner-heading-style{
+    font-size:70px ;
+    color: white;
+}
+.banner-para-style{
+color: white;
+font-size: 20px;
+width: 50%;
+margin: auto;
+padding: 10px;
+}
+.btn-primary{
+    background-color: #F52C2C;
+    width: 180px;
+    padding: 15px 20px;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    
+}
+.btn-white{
+    color: black;
+    width: 180px;
+    padding: 15px 20px;
+    border: 0;
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+
+
+
+/* service container styles */
+.service-container{
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-image: url("../my-prac/asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.service-list-btn{
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 16px;
+    width: 150px;
+    color: gray;
+    margin: 30px;
+}
+.service-left-container{
+    width: 50%;
+}
+.service-heading{
+    font-size: 40px;
+    color: white;
+    padding: 22px;
+}
+.service-description{
+    color: white;
+    font-size: 20px;
+    /* width: 50%; */
+    padding: 22px;
+}
+
+.profile-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    margin-left: 15px;
+    
+    
+
+}
+.service-profile-desig{
+    color: white;
+    margin: 20px;
+    
+}
+.service-profile{
+    display: flex;
+    border-right: 1px solid red;
+}
+.btn-more{
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 16px;
+    width: 150px;
+    color: red;
+    margin: 15px;
+}
+.service-down{
+    display: flex;
+  
+}
+.right-service{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+}
+.right-service-img{
+    width: 80px;
+    height: 80px;
+    margin:50px 50px 10px 50px;
+    
+}
+.right-service-text{
+    text-align: center;
+}
+.right-up{
+    display: flex;
+}
+.right-down{
+    display: flex;
+}
+.right-service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* appointment styles */
+.appoint-container{
+    background-color:#F52C2C;
+    width: 85%;
+    height: 20vh;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-img{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+.appoint-number{
+    color: white;
+    border-right: 1px solid white;
+    padding: 15px;
+}
+.appoint-number h3{
+    font-size: 30px;
+}
+.appoint-text p{
+    padding: 10px;
+    /* width: 75px; */
+    text-align: justify;
+/* border-right: 2px solid gray; */
+}
+.appoint-btn{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin-right: 15px;
+    padding: 10px;
+    border: 0;
+    width: 120px;
+}
+
+/* blog container styles */
+.blog-container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+    
+}
+.blog-heading-title{
+    font-size: 50px;
+    margin: 30px;
+}
+.blog-heading-description{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.blog-example-img{
+    width: 250px;
+    height: 200px;
+}
+.blog-example{
+background-color: aqua;
+margin: 20px;
+width: 250px;
+height: 350px;
+border-radius: 10px;
+box-shadow: 5px 5px black;
+}
+.blog-example-text{
+    text-align: left;
+    padding: 15px;
+    font-size: 15px;
+}
+.blog-example-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+/* footer styles */
+footer{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+   
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px; */
+    border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width:170px;
+}
+
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.icons{
+    /* text-align: center; */
+    margin-top:20px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}
+
+
+
